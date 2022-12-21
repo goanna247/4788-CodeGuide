@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+FRC team 4788's guide to code 
 """
 
 __version__ = "0.1.0"
