@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = '4788 Code Guide'
+copyright = '2022, 4788 Cant Control'
+author = 'Anna'
 
 release = '0.1'
 version = '0.1.0'
