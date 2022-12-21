@@ -14,7 +14,7 @@ features a very simple structure of code using 2 files (Robot.h and Robot.cpp) w
 
 :doc:`Robot Code` describes our main season code, including structure, formatting, how to use behaviours, more complex code and idea's. 
 
-:doc:`Github` Is a reminder of how to use git .
+:doc:`Github` Is a reminder of how to use git.
 
 :doc:`Wombat` Is more comprehensive documentation for the Wombat library, which has a number of very useful functions. 
 
@@ -24,15 +24,17 @@ Table of Contents
 --------
 
 .. toctree::
+   :glob:
+   :maxdepth: 10
+   :caption: Table of Contents
+   :titlesonly:
 
-   Installation
-   Simple Code Guide + RI3D
-   Robot Code 
-   Github
-   Wombat 
-   2023 Documentation
-
-
+   Installation/Installation
+   Simple/SimpleCode
+   Robot/RobotCode
+   Github/Github
+   Wombat/Wombat
+   Documentation/2023Documentation
 
 .. note::
 
