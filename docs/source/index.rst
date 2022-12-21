@@ -27,9 +27,9 @@ features a very simple structure of code using 2 files (Robot.h and Robot.cpp) w
    :titlesonly:
 
    Installation/Installation
+   Github/Github
    Simple/SimpleCode
    Robot/RobotCode
-   Github/Github
    Wombat/Wombat
    Documentation/2023Documentation
 
