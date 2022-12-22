@@ -8,7 +8,8 @@ This is an introduction to FRC specific programming.
   :maxdepth: 2
   :caption: Contents:
 
+  BasicLogic
   Controllers
   MotorControllers
-  BasicLogic
   RI3D
+  Logic

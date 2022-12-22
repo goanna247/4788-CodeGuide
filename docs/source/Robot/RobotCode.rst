@@ -9,4 +9,8 @@ Welcome to the main stuff
   :caption: Table of Contents
   
   Structure 
-  
+  Drivebase
+  YourSubsystem
+  Statemachines
+  Vision
+  Auto

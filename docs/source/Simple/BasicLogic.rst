@@ -5,6 +5,11 @@ Basic Logic
 Introduction to FRC Programming
 ------------------------------------
 
+The starting 3 files in FRC code are: ``Robot.h`` , ``Robot.cpp`` and ``Main.cpp``
+You will be using and editing Robot.h and .cpp alot throughout season, however please do not touch Main.cpp.
+
+
+
 A FRC robot has 3 modes, Teleop, Autonomous and Test. This modes are not fixed (as in you can put driver controller code in auto and autonomous code in teleop)
 
 **Teleop** 
