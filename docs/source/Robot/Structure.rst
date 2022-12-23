@@ -11,12 +11,13 @@ We define our controllers at the top of the RobotMap struct, usually we have 3 c
 
 We then have structs for each subsystem, this features all the motors, gearboxs, solenoids, sensors, ect in that subsystem. This is the actual physical stuff that gets passed into your subsystem later. Because of that we define ports, names and other stuff here. 
 
-``struct intakeSystem {
-  TalonSRX frontIntakeMotor{ControlMap::Intake::frontIntakeMotorPort};
-  TalonSRX backIntakeMotor{ControlMap::Intake::backIntakeMotorPort};
-};
-``
+.. code-block:: cpp
+  :caption: intake system example 
 
+  struct intakeSystem {
+    TalonSRX frontIntakeMotor{ControlMap::Intake::frontIntakeMotorPort};
+    TalonSRX backIntakeMotor{ControlMap::Intake::backIntakeMotorPort};
+  };
 
 ControlMap.h 
 --------------
@@ -25,10 +26,13 @@ ControlMap is where we store variables and map controls (hence the name controlm
 
 To organise these variables and make it a little neater we use structs: 
 
-``struct Intake {
-  static constexpr int frontIntakeMotorPort = 99; //this is a constant
-  inline static bool intakeToggle = false; //not a constant 
-};``
+.. code-block:: cpp
+  :caption: struct example
+
+  struct Intake {
+    static constexpr int frontIntakeMotorPort = 99; //this is a constant
+    inline static bool intakeToggle = false; //not a constant 
+  };
 
 Note we use 99 when you dont know a port number yet just to make it easy to search through the code for unassigned port numbers 
 
@@ -38,4 +42,5 @@ At the bottom of ControlMap we define the controls, when you are adding a new co
 
 Behaviours
 --------------
+
 
