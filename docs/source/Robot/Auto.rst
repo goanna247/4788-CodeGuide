@@ -8,3 +8,4 @@ how many balls to fire, which balls to fire, what paths to run, ect.
 The start of programming autonomous is path planning, since this can be done without the subsystems being completed. 
 
 Wombat has a number of features that make autonomous a whole lot easier. 
+

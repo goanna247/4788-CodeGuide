@@ -7,7 +7,7 @@ TalonSRX's
 ------------
 The most common type of motor controller our team uses is a TalonSRX 
 
-**Include:** ``#include <frc/>
+**Include:** ``#include <frc/phoenix>
 
 In robot.h you can create the TalonSRX:
 
@@ -21,7 +21,6 @@ Set the port number to 99 if you don't yet know what it is, this makes it easy t
 
 To set the motor you can either set power(0-1) or voltage (usually between 0 and 12)
 ``intakeMotor->Set(ControlMode::PercentOutput, 0.6);``
-``intakeMotor 
 
 
 
@@ -29,7 +28,18 @@ VictorSPX's
 -------------
 These are a slightly older motor controller, we dont use them on competition robots but they might pop up on a test bench or test but
 
-**Include:** ``#include <>``
+**Include:** ``#include <ctre/Phoenix.h>``
+
+To create a victor: ``VictorSPX *otherMotor;`` in robot.h and ``intakeMotor = new TalonSRX(99);`` in RobotInit in robot.cpp.
+Or you can just add ``TalonSRX intakeMotor(4);`` at the top of the robot.cpp file. 
+
+To set the motor you can call the ``Set`` function which takes in a controlmode, for a percentage (0-1) use ``ControlMode::PercentOutput``
+
+
+
+WORK IN PROGRESS 
+-------------------
+
 
 Spark Max's 
 ------------
@@ -41,13 +51,13 @@ Talon FX's
 ------------
 Talon FX's are the inbuilt motor controller in the Falcon motor.
 
-**Include:** ``#include <>``
+**Include:** ``#include <ctre/Phoenix.h>``
 
 Double Solenoid 
 -----------------
 We almost always use pneumatics in the 
 
-**Include:** ``#include <>`` 
+**Include:** ``#include <ctre/>`` 
 
 
 

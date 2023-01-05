@@ -28,8 +28,6 @@ This makes the default state kEmpty
 You should then use a switch case to manage what happens in each of these states. 
 
 .. code-block:: cpp
-  :caption: statemachine code 
-  
   switch(_state) {
     case: MagStates::kEmpty
       //here we checked the sensors to check if it was still empty, if a ball was sensed then it moved the state to either One, Transfering or Two

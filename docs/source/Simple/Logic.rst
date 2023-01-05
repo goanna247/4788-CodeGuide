@@ -15,7 +15,8 @@ In your header file (either robot.h or whatever header file of the subsystem you
 
 Then in your cpp file we use this variable and the input from a controller
 
-``if (driver->GetAButtonReleased()) {
+.. code-block::cpp 
+  if (driver->GetAButtonReleased()) {
     if (intakeToggle) {
       intakeToggle = false;
     } else {
@@ -27,7 +28,7 @@ Then in your cpp file we use this variable and the input from a controller
   } else {
     intakeSolenoid->DoubleSolenoid::Set(frc::DoubleSolenoid::kReverse);
   }
-``
+
 
 Boom, now you have a toggle button for a solenoid! 
 
@@ -39,5 +40,7 @@ Our controllers usually need a deadzone, we can do this very easily with a condi
 ``double armSpeed = driver->GetLeftTriggerAxis() > 0.1 ? driver->GetLeftTriggerAxis() : 0;``
 
 During season there will be a variable called ``deadzone`` that all subsystems will use which can be swapped out in the above code for ``0.1``
+
+(there is also a function in wombat you can use, for more information check the wombat section)
 
 

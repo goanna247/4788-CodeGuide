@@ -8,7 +8,4 @@ Again, these are not essential to have on your laptop, but as you get more invol
     :maxdepth: 2
     :caption: Contents:
 
-    driverstation
-    phoenix
-    roborio
-    router 
+    NItools
