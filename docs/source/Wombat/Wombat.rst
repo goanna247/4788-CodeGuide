@@ -10,6 +10,7 @@ It has significantly less common functions due to the recent wpi updates.
   :maxdepth: 2
   :caption: Contents:
 
+  Behaviours
   RobotStartup
   VoltageController
   Encoder
